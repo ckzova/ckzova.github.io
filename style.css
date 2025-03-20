@@ -19,7 +19,7 @@ body {
     color: #CCCCCC;
   }
 header{
-    font-size: 3vw;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -44,7 +44,7 @@ header{
     flex-direction: column;
    justify-content: center;
     gap: 1em;
-    margin: 100px;
+    margin: 8vh;
     
     
   }
@@ -104,6 +104,10 @@ opacity: 0.8;
     justify-content: space-between;
    
   }
+  img{
+    height: 8vh;
+    width: 8vh;
+  }
   @media screen and (max-width: 600px){
     body {
       /* background-color: #000000;
@@ -126,7 +130,7 @@ opacity: 0.8;
       color: #CCCCCC;
     }
   header{
-      font-size: 5vw;
+      font-size: 3vw;
       text-align: center;
   }
   
@@ -200,6 +204,11 @@ opacity: 0.8;
     .card:hover > div,
     .card:hover > strong {
       opacity: 0;
+    }
+    img{
+      height: 9vh;
+      width: 9vh;
+      padding: 1vh;
     }
     .container {
       display: flex;
@@ -235,7 +244,7 @@ opacity: 0.8;
       color: #CCCCCC;
     }
   header{
-      font-size: 5vw;
+      font-size: 3vw;
       text-align: center;
   }
   
@@ -322,3 +331,4 @@ opacity: 0.8;
      
     }
   }
+ 
